@@ -5,7 +5,7 @@ La idea es ser un top-down sencillo, con animaciones oficiales (sacadas de un cr
 
 Este proyecto es de mero aprendizaje, nada serio. Aún así, Siéntete libre de leer el proyecto o modificarlo, pero no exigas un GOTY porfa 🗣️. Lo iré extendiendo si no me gana la pereza.
 
-Ícono por (ItsGerdew)[https://x.com/ItsGerdew]
+Ícono por [ItsGerdew](https://x.com/ItsGerdew)
 
 ## Software recomendado
 Si quieres editar este proyecto, usa:
@@ -15,6 +15,6 @@ Si quieres editar este proyecto, usa:
 - Visual Studio Code
 
 ## Sobre el autor
-Soy (Andrés López González)[https://github.com/Andresit1524], alguien que está en proceso de desarrollar (Stewart)[https://linktr.ee/Stewart_devteam], un proyecto de videojuego que me exige aprender Godot. Por eso este y otros proyectitos de posta que hago para aprender del motor.
+Soy [Andrés López González](https://github.com/Andresit1524), alguien que está en proceso de desarrollar [Stewart](https://linktr.ee/Stewart_devteam), un proyecto de videojuego que me exige aprender Godot. Por eso este y otros proyectitos de posta que hago para aprender del motor.
 
 Gracias por leer papu
