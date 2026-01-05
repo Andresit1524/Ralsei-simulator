@@ -14,7 +14,7 @@ config/name="Ralsei simulator"
 config/tags=PackedStringArray("práctica")
 run/main_scene="uid://bb0skoljfd6xy"
 config/features=PackedStringArray("4.5", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="uid://4hc17ktxob6r"
 
 [dotnet]
 
