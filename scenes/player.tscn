@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://dl2nf737pr3xg"]
+
+[ext_resource type="SpriteFrames" uid="uid://7ffb7q83v0sh" path="res://assets/resources/ralsei_animations_no_hat.tres" id="1_g2els"]
+[ext_resource type="Script" uid="uid://cr7vxg6fl1hfq" path="res://scripts/player.gd" id="1_qhqgy"]
+[ext_resource type="SpriteFrames" uid="uid://dmht3c3ryppqf" path="res://assets/resources/ralsei_animations_hatted.tres" id="2_qhqgy"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dqkch"]
+size = Vector2(16, 42)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_qhqgy")
+
+[node name="AnimatedSpriteNoHat" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("1_g2els")
+animation = &"idle_front"
+autoplay = "idle_front"
+
+[node name="AnimatedSpriteHatted" type="AnimatedSprite2D" parent="."]
+visible = false
+sprite_frames = ExtResource("2_qhqgy")
+animation = &"idle_front"
+autoplay = "idle_front"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource("RectangleShape2D_dqkch")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(3.235, 3.235)
+
+[connection signal="animation_finished" from="AnimatedSpriteNoHat" to="." method="_on_animated_sprite_no_hat_animation_finished"]
+[connection signal="animation_finished" from="AnimatedSpriteHatted" to="." method="_on_animated_sprite_hatted_animation_finished"]
